@@ -16,12 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import *
 from CORE.views import *
-from django.conf.urls.static import static 
+'''from django.conf.urls.static import static '''
 
 
 urlpatterns =[
     path('admin/', admin.site.urls),
 	path('',index),
 	path('noticias/',noticias),
-	path('sistemas/',analise_sistemas),
+	path('analise/',analise_sistemas),
+	path('banco/',banco_de_dados),
+	path('informacao/',sistema_informacao),
 ]

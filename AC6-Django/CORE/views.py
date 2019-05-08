@@ -9,5 +9,12 @@ def noticias(request):
 	
 def analise_sistemas(request):
 	return render(request,'cursos/curso_analise_des_sistemas.html')
+	
+		
+def banco_de_dados (request):
+	return render(request,'cursos/curso_banco_de_dados.html')
+	
+def sistema_informacao(request):
+	return render(request,'cursos/curso_sistema_informacao.html')
 
 # Create your views here.
